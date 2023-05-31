@@ -30,3 +30,7 @@ After the lever is activated, it will move to the bottom of the housing and the 
 
 At first, the result section is left blank because the machine has not spun yet. After spinning, the result will show up in the section, indicating whether the user won or lost. If the user won, the result will tell the user which rows have matches and display a jackpot message if there are matching bells or gold bars in the rows. If the user lost, it will display a "you lose!" message. Either way, a green checkmark and red x will display. The green checkmark will reset the spin lever and allow the user to play again and again until the balance is depleted. The red x will take the user to the thank you page. If the user depletes the entire balance, they will be forced to enter the thank you page via the "End Game" button.
 
+## Thank You 
+![image](https://github.com/fletchcoder/Super-Slot-Machine/assets/131314453/b4bf984b-5562-4af4-b616-946092b32770)
+
+After the user is done playing, they are redirected to another page that thanks them for playing Super Slot Machine. If the user would like to play again, they can click the button labeled "Play Again" to go back to the slot machine page.
