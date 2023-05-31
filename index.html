@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Super Slot Machine | Free Online Slot Machine</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+        <meta name="keywords" content="HTML, CSS, JavaScript, Gambling" />
+        <meta name="description" content="Slot Machine with 3 Rows and 5 Columns, Online Fake Gambling Site With Fake Money" />
+        <link rel="stylesheet" type="text/css" href="main.css" />
+    </head>
+    <body>
+        <div class="header">
+            <span><h1>Super Slot Machine</h1></span>
+        </div>
+        <div class="top">
+            <div id="result" class="result">
+                <h1 id="message">You lose!</h1>
+                <div>
+                    <button class="green" id="green" onclick="moveKnobBack()">✔</button><a href="gameover.html"><button class="red" id="red">X</button></a>
+                </div>
+                <a href="gameover.html"><button class="end" id="end">End Game</button></a>
+            </div>
+            <form id="moneyinfo">
+                <label for="balance">Enter an amount to play with:</label>
+                <input type="text" id="balance" size="20" placeholder="$" />
+                <label for="bet">Enter a bet amount per line:</label>
+                <input type="text" id="bet" size="20" placeholder="$" />
+                <input type="button" name="submit" value="OK" class="submit" onclick="validate()"/>
+            </form>
+        </div>
+        <div class="main">
+            <div class="left">
+                <div class="lever">
+                    <div class="lever-carrier">
+                        <div class="inner-lever" id="inner">
+                            <div class="lever-knob one" id="knob"><button onclick="spin()">SPIN</button></div>
+                            <div class="lever-knob two" id="knob2"><button>SPIN</button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="machine-container">
+                    <div class="row row-1">
+                        <div class="slot"><img class="slotimage" src="images/cherry.png" /></div>
+                        <div class="slot"><img class="slotimage" src="images/orange.png" /></div>
+                        <div class="slot"><img class="slotimage" src="images/melon.png" /></div>
+                        <div class="slot"><img class="slotimage" src="images/melon.png" /></div>
+                        <div class="slot"><img class="slotimage" src="images/orange.png" /></div>
+                    </div>
+                    <div class="row row-2">
+                        <div class="slot"><img class="slotimage" src="images/bar.png" /></div>
+                        <div class="slot"><img class="slotimage" src="images/bar.png" /></div>
+                        <div class="slot"><img class="slotimage" src="images/cherry.png" /></div>
+                        <div class="slot"><img class="slotimage" src="images/orange.png" /></div>
+                        <div class="slot"><img class="slotimage" src="images/bell.png" /></div>
+                    </div>
+                    <div class="row row-3">
+                        <div class="slot"><img class="slotimage" src="images/bell.png" /></div>
+                        <div class="slot"><img class="slotimage" src="images/bar.png" /></div>
+                        <div class="slot"><img class="slotimage" src="images/melon.png" /></div>
+                        <div class="slot"><img class="slotimage" src="images/cherry.png" /></div>
+                        <div class="slot"><img class="slotimage" src="images/orange.png" /></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="spin.js"></script>
+    </body>
+</html>
