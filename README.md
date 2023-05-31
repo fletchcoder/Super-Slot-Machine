@@ -1,1 +1,1 @@
-# Super-Slot-Machine
+# Super Slot Machine
