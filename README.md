@@ -10,7 +10,7 @@ Each piece of the page is controlled by JavaScript and changes styling with CSS 
 * JavaScript 
 
 ## Balance Info 
-<img align="left" width="47%" src="https://github.com/fletchcoder/Super-Slot-Machine/assets/131314453/40abed48-1dcb-4835-8c9b-c5a66008b7aa"
+<img align="left" width="47%" src="https://github.com/fletchcoder/Super-Slot-Machine/assets/131314453/80dc9433-0126-4c8e-b175-4ebde2c3f3d6"
 />
 <img align="left" width="47%" src="https://github.com/fletchcoder/Super-Slot-Machine/assets/131314453/81085600-0ff3-44e1-ab3d-83c3ae219b8b"
 />
