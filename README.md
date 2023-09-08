@@ -1,6 +1,6 @@
 # Super Slot Machine
 
-Super Slot Machine is a fake slot machine that simulates an actual slot machine and is complete with a spin lever, machine with six possible results per slot, a form to input balance and bet information, and a result form that tells the user if they won or not. 
+Super Slot Machine is a fake slot machine that simulates an actual slot machine and is complete with a spin lever, machine with five possible results per slot, a form to input balance and bet information, and a result form that tells the user if they won or not. 
 
 Each piece of the page is controlled by JavaScript and changes styling with CSS media queries at five different breakpoints. 
 
